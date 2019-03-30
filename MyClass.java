@@ -17,6 +17,7 @@ class Student {
     }
 }
 class StudentComparator implements Comparator<Student>{
+    
     public int compare(Student s1, Student s2){
         
         // comparision on basis of cgpa
